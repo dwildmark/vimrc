@@ -46,6 +46,10 @@
 " Sets how many lines of history VIM has to remember
 set history=500
 
+" Set visual ruler to column 80
+highlight ColorColumn guibg=LightRed
+let &colorcolumn="81"
+
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
@@ -65,12 +69,17 @@ nmap <leader>w :w!<cr>
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
 
+map <silent> <F11>
+            \ :call system("wmctrl -r " . v:windowid . " -b togge,fullscreen")<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
+
+" Set to use mouse 
+set mouse=a
 
 " Avoid garbled characters in Chinese language windows OS
 let $LANG='en' 
@@ -244,7 +253,7 @@ map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
-map <leader>t<leader> :tabnext 
+map <leader>t<leader> :tabnext<cr>
 
 " Let 'tl' toggle between this and the last accessed tab
 let g:lasttab = 1

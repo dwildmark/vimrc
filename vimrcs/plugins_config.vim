@@ -152,6 +152,9 @@ let g:syntastic_python_checkers=['pyflakes']
 " Javascript
 let g:syntastic_javascript_checkers = ['jshint']
 
+" C
+let g:syntastic_c_compiler = ['gcc']
+
 " Go
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_go_checkers = ['go', 'golint', 'errcheck']
