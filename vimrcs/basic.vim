@@ -1,13 +1,6 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Maintainer: 
-"       Amir Salihefendic
-"       http://amix.dk - amix@amix.dk
-"
-" Version: 
-"       6.0 - 01/04/17 14:24:34 
-"
-" Blog_post: 
-"       http://amix.dk/blog/post/19691#The-ultimate-Vim-configuration-on-Github
+"       Amir Salihefendic — @amix3k
 "
 " Awesome_version:
 "       Get this config, nice color schemes and lots of plugins!
@@ -15,12 +8,6 @@
 "       Install the awesome version from:
 "
 "           https://github.com/amix/vimrc
-"
-" Syntax_highlighted:
-"       http://amix.dk/vim/vimrc.html
-"
-" Raw_version: 
-"       http://amix.dk/vim/vimrc.txt
 "
 " Sections:
 "    -> General
@@ -46,10 +33,6 @@
 " Sets how many lines of history VIM has to remember
 set history=500
 
-" Set visual ruler to column 80
-highlight ColorColumn guibg=LightRed
-let &colorcolumn="81"
-
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
@@ -60,7 +43,6 @@ set autoread
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
 let mapleader = ","
-let g:mapleader = ","
 
 " Fast saving
 nmap <leader>w :w!<cr>
@@ -69,8 +51,6 @@ nmap <leader>w :w!<cr>
 " (useful for handling the permission-denied error)
 command W w !sudo tee % > /dev/null
 
-map <silent> <F11>
-            \ :call system("wmctrl -r " . v:windowid . " -b togge,fullscreen")<CR>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
@@ -78,16 +58,13 @@ map <silent> <F11>
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
-" Set to use mouse 
-set mouse=a
-
 " Avoid garbled characters in Chinese language windows OS
 let $LANG='en' 
 set langmenu=en
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
 
-" Turn on the WiLd menu
+" Turn on the Wild menu
 set wildmenu
 
 " Ignore compiled files
@@ -253,7 +230,7 @@ map <leader>tn :tabnew<cr>
 map <leader>to :tabonly<cr>
 map <leader>tc :tabclose<cr>
 map <leader>tm :tabmove 
-map <leader>t<leader> :tabnext<cr>
+map <leader>t<leader> :tabnext 
 
 " Let 'tl' toggle between this and the last accessed tab
 let g:lasttab = 1
@@ -365,28 +342,26 @@ endfunction
 " Don't close window, when deleting a buffer
 command! Bclose call <SID>BufcloseCloseIt()
 function! <SID>BufcloseCloseIt()
-   let l:currentBufNum = bufnr("%")
-   let l:alternateBufNum = bufnr("#")
+    let l:currentBufNum = bufnr("%")
+    let l:alternateBufNum = bufnr("#")
 
-   if buflisted(l:alternateBufNum)
-     buffer #
-   else
-     bnext
-   endif
+    if buflisted(l:alternateBufNum)
+        buffer #
+    else
+        bnext
+    endif
 
-   if bufnr("%") == l:currentBufNum
-     new
-   endif
+    if bufnr("%") == l:currentBufNum
+        new
+    endif
 
-   if buflisted(l:currentBufNum)
-     execute("bdelete! ".l:currentBufNum)
-   endif
+    if buflisted(l:currentBufNum)
+        execute("bdelete! ".l:currentBufNum)
+    endif
 endfunction
 
 function! CmdLine(str)
-    exe "menu Foo.Bar :" . a:str
-    emenu Foo.Bar
-    unmenu Foo
+    call feedkeys(":" . a:str)
 endfunction 
 
 function! VisualSelection(direction, extra_filter) range
