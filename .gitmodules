@@ -1,0 +1,6 @@
+[submodule "sources_non_forked/nerdtree"]
+	path = sources_non_forked/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
+[submodule "sources_non_forked/YouCompleteMe"]
+	path = sources_non_forked/YouCompleteMe
+	url = git@github.com:Valloric/YouCompleteMe.git
