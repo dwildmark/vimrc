@@ -28,3 +28,6 @@
 [submodule "sources_non_forked/vim-gitgutter"]
 	path = sources_non_forked/vim-gitgutter
 	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "sources_non_forked/ale"]
+	path = sources_non_forked/ale
+	url = https://github.com/w0rp/ale.git
