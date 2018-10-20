@@ -4,3 +4,24 @@
 [submodule "sources_non_forked/YouCompleteMe"]
 	path = sources_non_forked/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
+[submodule "sources_non_forked/syntastic"]
+	path = sources_non_forked/syntastic
+	url = https://github.com/vim-syntastic/syntastic.git
+[submodule "sources_non_forked/YCM-Generator"]
+	path = sources_non_forked/YCM-Generator
+	url = git@github.com:rdnetto/YCM-Generator.git
+[submodule "sources_non_forked/vim-polyglot"]
+	path = sources_non_forked/vim-polyglot
+	url = git@github.com:sheerun/vim-polyglot.git
+[submodule "sources_non_forked/ctrlp.vim"]
+	path = sources_non_forked/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule "sources_non_forked/lightline.vim"]
+	path = sources_non_forked/lightline.vim
+	url = git@github.com:itchyny/lightline.vim.git
+[submodule "sources_non_forked/vim-multiple-cursors"]
+	path = sources_non_forked/vim-multiple-cursors
+	url = git@github.com:terryma/vim-multiple-cursors.git
+[submodule "sources_non_forked/code-stats-vim"]
+	path = sources_non_forked/code-stats-vim
+	url = https://gitlab.com/code-stats/code-stats-vim.git
