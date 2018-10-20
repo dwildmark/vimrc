@@ -25,3 +25,6 @@
 [submodule "sources_non_forked/code-stats-vim"]
 	path = sources_non_forked/code-stats-vim
 	url = https://gitlab.com/code-stats/code-stats-vim.git
+[submodule "sources_non_forked/stellarized"]
+	path = sources_non_forked/stellarized
+	url = git@github.com:nightsense/stellarized.git

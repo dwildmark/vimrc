@@ -6,7 +6,7 @@
 
 " Colorscheme
 set background=dark
-colorscheme peaksea
+colorscheme stellarized
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GUI related
