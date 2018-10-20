@@ -4,9 +4,6 @@
 [submodule "sources_non_forked/YouCompleteMe"]
 	path = sources_non_forked/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
-[submodule "sources_non_forked/syntastic"]
-	path = sources_non_forked/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
 [submodule "sources_non_forked/YCM-Generator"]
 	path = sources_non_forked/YCM-Generator
 	url = git@github.com:rdnetto/YCM-Generator.git
@@ -28,3 +25,6 @@
 [submodule "sources_non_forked/stellarized"]
 	path = sources_non_forked/stellarized
 	url = git@github.com:nightsense/stellarized.git
+[submodule "sources_non_forked/vim-gitgutter"]
+	path = sources_non_forked/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
