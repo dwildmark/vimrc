@@ -18,7 +18,7 @@ endtry' > ~/.vimrc
 echo "Installed the Ultimate Vim configuration successfully!"
 
 echo "Installing plugins..."
-git submodule update --init -recursive
+git submodule update --init --recursive
 
 echo "Installing YouCompleteMe Clang completion"
 cd ~/.vim_runtime/sources_non_forked/YouCompleteMe
