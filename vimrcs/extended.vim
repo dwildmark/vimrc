@@ -4,6 +4,8 @@
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+set colorcolumn=80
+
 " Colorscheme
 set background=dark
 colorscheme onedark
