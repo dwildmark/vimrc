@@ -37,3 +37,6 @@
 [submodule "sources_non_forked/vim-better-whitespace"]
 	path = sources_non_forked/vim-better-whitespace
 	url = git@github.com:ntpeters/vim-better-whitespace.git
+[submodule "sources_non_forked/vim-commentary"]
+	path = sources_non_forked/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
