@@ -40,3 +40,9 @@
 [submodule "sources_non_forked/vim-commentary"]
 	path = sources_non_forked/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule "sources_non_forked/vim-markdown-preview"]
+	path = sources_non_forked/vim-markdown-preview
+	url = git@github.com:JamshedVesuna/vim-markdown-preview.git
+[submodule "sources_non_forked/ack.vim"]
+	path = sources_non_forked/ack.vim
+	url = git@github.com:mileszs/ack.vim.git
