@@ -10,6 +10,9 @@ set colorcolumn=80
 set background=dark
 colorscheme onedark
 
+" turn hybrid line numbers on
+set number relativenumber
+set nu rnu
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GUI related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
