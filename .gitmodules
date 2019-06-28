@@ -46,3 +46,6 @@
 [submodule "sources_non_forked/ack.vim"]
 	path = sources_non_forked/ack.vim
 	url = git@github.com:mileszs/ack.vim.git
+[submodule "sources_non_forked/detectindent"]
+	path = sources_non_forked/detectindent
+	url = git@github.com:ciaranm/detectindent.git
