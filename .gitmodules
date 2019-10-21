@@ -1,51 +1,51 @@
 [submodule "sources_non_forked/nerdtree"]
 	path = sources_non_forked/nerdtree
-	url = git@github.com:scrooloose/nerdtree.git
+	url = https://github.com/scrooloose/nerdtree
 [submodule "sources_non_forked/YouCompleteMe"]
 	path = sources_non_forked/YouCompleteMe
-	url = git@github.com:Valloric/YouCompleteMe.git
+	url = https://github.com/Valloric/YouCompleteMe
 [submodule "sources_non_forked/YCM-Generator"]
 	path = sources_non_forked/YCM-Generator
-	url = git@github.com:rdnetto/YCM-Generator.git
+	url = https://github.com/rdnetto/YCM-Generator
 [submodule "sources_non_forked/vim-polyglot"]
 	path = sources_non_forked/vim-polyglot
-	url = git@github.com:sheerun/vim-polyglot.git
+	url = https://github.com/sheerun/vim-polyglot
 [submodule "sources_non_forked/ctrlp.vim"]
 	path = sources_non_forked/ctrlp.vim
-	url = git@github.com:kien/ctrlp.vim.git
+	url = https://github.com/kien/ctrlp.vim
 [submodule "sources_non_forked/lightline.vim"]
 	path = sources_non_forked/lightline.vim
-	url = git@github.com:itchyny/lightline.vim.git
+	url = https://github.com/itchyny/lightline.vim
 [submodule "sources_non_forked/vim-multiple-cursors"]
 	path = sources_non_forked/vim-multiple-cursors
-	url = git@github.com:terryma/vim-multiple-cursors.git
+	url = https://github.com/terryma/vim-multiple-cursors
 [submodule "sources_non_forked/code-stats-vim"]
 	path = sources_non_forked/code-stats-vim
-	url = https://gitlab.com/code-stats/code-stats-vim.git
+	url = https://gitlab.com/code-stats/code-stats-vim
 [submodule "sources_non_forked/stellarized"]
 	path = sources_non_forked/stellarized
-	url = git@github.com:nightsense/stellarized.git
+	url = https://github.com/nightsense/stellarized
 [submodule "sources_non_forked/vim-gitgutter"]
 	path = sources_non_forked/vim-gitgutter
-	url = git@github.com:airblade/vim-gitgutter.git
+	url = https://github.com/airblade/vim-gitgutter
 [submodule "sources_non_forked/onedark.vim"]
 	path = sources_non_forked/onedark.vim
-	url = git@github.com:joshdick/onedark.vim.git
+	url = https://github.com/joshdick/onedark.vim
 [submodule "sources_non_forked/syntastic"]
 	path = sources_non_forked/syntastic
-	url = https://github.com/vim-syntastic/syntastic.git
+	url = https://github.com/vim-syntastic/syntastic
 [submodule "sources_non_forked/vim-better-whitespace"]
 	path = sources_non_forked/vim-better-whitespace
-	url = git@github.com:ntpeters/vim-better-whitespace.git
+	url = https://github.com/ntpeters/vim-better-whitespace
 [submodule "sources_non_forked/vim-commentary"]
 	path = sources_non_forked/vim-commentary
-	url = git@github.com:tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary
 [submodule "sources_non_forked/vim-markdown-preview"]
 	path = sources_non_forked/vim-markdown-preview
-	url = git@github.com:JamshedVesuna/vim-markdown-preview.git
+	url = https://github.com/JamshedVesuna/vim-markdown-preview
 [submodule "sources_non_forked/ack.vim"]
 	path = sources_non_forked/ack.vim
-	url = git@github.com:mileszs/ack.vim.git
+	url = https://github.com/mileszs/ack.vim
 [submodule "sources_non_forked/detectindent"]
 	path = sources_non_forked/detectindent
-	url = git@github.com:ciaranm/detectindent.git
+	url = https://github.com/ciaranm/detectindent
